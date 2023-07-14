@@ -210,6 +210,7 @@ function getAverageWordLength(array){
     add += length[i];
   }
   average = add / length.length
+  average = Math.ceil(average)
   return average
 }
 
